@@ -1,0 +1,19 @@
+{
+	"name": "clier",
+	"version": "1.0.0",
+	"description": "fsm cli",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc src/index.ts --lib ES2018",
+		"start": "node src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/inquirer": "^6.5.0",
+		"@types/node": "^13.7.1",
+		"inquirer": "^7.0.4",
+		"xstate": "^4.7.8"
+	}
+}
